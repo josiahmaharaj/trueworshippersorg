@@ -2,24 +2,20 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import "bourbon/bourbon";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+// Our variables  
+$base-font-family: Open Sans;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$darkGrey: 	   	   #2F343A;
+$mediumGrey:	   #717D8C;
+$lightGrey:		   #dddddd;
+$beige:			   #BDB69C;
+$teal:			   #80CEB9;
+$cyan:			   #41AAC4;
 
 // Width of the content area
 $content-width:    800px;
@@ -27,6 +23,13 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+body{
+
+	background-color: $lightGrey;
+	font-family: Open Sans;
+	margin: 0;
+	padding: 0;
+}
 
 
 // Using media queries with like this:
@@ -42,11 +45,13 @@ $on-laptop:        800px;
     }
 }
 
+@import
+	"modules/header",
+	"modules/footer",
+	"modules/index";
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+// @import
+//         "base",
+// ;

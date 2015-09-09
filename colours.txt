@@ -1,6 +1,0 @@
-2F343A dark grey
-717D8C medium grey
-DDDDDD light grey
-BDB69C beige
-80CEB9 teal
-41AAC4 cyan
