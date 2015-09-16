@@ -13,10 +13,23 @@ $(document).ready(function() {
  
   $("#owl-example").owlCarousel({
  
-      navigation : true, // Show next and prev buttons
+      navigation : false, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
-      singleItem:true
+      singleItem:true,
+
+      autoPlay : true,
+      stopOnHover : true,
+
+      baseClass : "owl-carousel",
+      theme : "owl-theme",
+
+      lazyload: true,
+
+      responsive: true,
+      responsiveRefreshRate : 200,
+      responsiveBaseWidth: 100,
+
  
       // "singleItem:true" is a shortcut for:
       // items : 1, 
