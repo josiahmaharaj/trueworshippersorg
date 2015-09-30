@@ -1,5 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+weight: 0
 ---
 @charset "utf-8";
 @import "bourbon/bourbon";
@@ -48,7 +49,10 @@ body{
 @import
 	"modules/header",
 	"modules/footer",
-	"modules/index";
+	"modules/index",
+	"modules/about",
+	"modules/events",
+	"modules/footer_copyright";
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

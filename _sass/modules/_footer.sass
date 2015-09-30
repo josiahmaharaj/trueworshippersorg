@@ -1,8 +1,38 @@
-.footer
-	margin: 0
-	padding: 0
-	background-color: $teal
-	min-height: 300px
-	margin: 0 auto
-	+justify-content(flex)
+// .footer
+// 	margin: 0
+// 	padding: 0
+// 	background-color: $teal
+// 	// min-height: 300px
+	// margin: 0 auto
+//	+justify-content(flex)
 
+.footer
+	display: block
+	background-color: $teal
+	h2, p, hr
+		color: white
+	a
+		color: blue
+		text-decoration: none
+
+.footer-wrap
+	display: block
+	padding-top: 50px
+	padding-bottom: 50px
+	margin: 0 auto
+	max-width: 500px
+	overflow: hidden
+
+.contact_info_wrap, .socialmedia_wrap, .prayer_requests_wrap
+	text-align: center
+
+.contact
+	// float: left
+	// border: 1px solid red
+	// max-width: 250px
+	display: block
+	margin: 0 auto
+
+.prayer_requests_wrap
+	border: 1px solid red
+	// max-width: 250px

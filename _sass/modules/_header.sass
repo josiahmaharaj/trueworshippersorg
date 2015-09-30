@@ -16,7 +16,6 @@ hr
 	max-width: 900px
 
 .nav
-	
 	ul
 		max-width: 900px
 		margin: 0 auto
@@ -37,3 +36,19 @@ hr
 			a
 				text-decoration: none
 				color: $cyan
+
+.active
+	ul
+		li
+			a
+				color: pink
+
+.slicknav_menu
+	display: none
+
+@media screen and (max-width: 30em)
+	.js #menu
+		display: none
+
+	.js .slicknav_menu
+		display: block

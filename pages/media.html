@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /media/
+title: Media
+weight: 4
+---
+
+<div class="media_wrap">
+
+	<ul>
+		{% for m in site.data.media %}
+			<li>
+				<p>{{ m.video_title }}</p>
+				{{ m.video_link }}
+			</li>
+		{% endfor %}
+	</ul>
+
+
+</div>

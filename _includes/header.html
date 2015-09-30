@@ -6,11 +6,17 @@
 	<div class="name"><h3>True Worshippers Evangelistic Centre</h3></div>
 	<hr>
 	<div class="nav">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Pastors</a></li>
-			<li><a href="#">Youth</a></li>
-			<li><a href="#">Donate</a></li>
+		{% assign pages=site.pages | sort:"weight" %}
+		<ul id="menu">
+			{% for p in pages %}
+			{% if p.weight != 0 %}
+			<li>
+				
+				<a {% if p.url == page.url %}class="active" {% endif %}href="{{ p.url }}">{{ p.title }}</a>
+				
+			</li>
+			{% endif %}
+			{% endfor %}
 		</ul>
 	</div>
 

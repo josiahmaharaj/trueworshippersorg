@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}T.W.E.C | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -13,5 +13,7 @@
   <link rel="stylesheet" href="{{ "/assets/owl/owl.carousel.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/owl/owl.theme.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/owl/owl.transitions.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/owl/slicknav.css" | prepend: site.baseurl }}">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
 </head>
