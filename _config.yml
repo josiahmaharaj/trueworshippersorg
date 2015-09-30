@@ -2,8 +2,8 @@
 title: T.W.E.C
 email: twectt@gmail.com
 description: The Official of True Worshippers Evangelistic Centre; No.1 Mann Street Arouca. 
-baseurl: "http://josiahmaharaj.github.io/trueworshippersorg/" # the subpath of your site, e.g. /blog/
-url: "http://josiahmaharaj.github.io/trueworshippersorg/" # the base hostname & protocol for your site
+baseurl: "/trueworshippersorg" # the subpath of your site, e.g. /blog/
+url: "http://josiahmaharaj.github.io/trueworshippersorg" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
