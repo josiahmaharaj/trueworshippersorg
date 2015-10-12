@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 
 $darkGrey: 	   	   #2F343A;
 $mediumGrey:	   #717D8C;
-$lightGrey:		   #dddddd;
+$lightGrey:		   #F5F5F5;
 $beige:			   #BDB69C;
 $teal:			   #80CEB9;
 $cyan:			   #41AAC4;
@@ -30,6 +30,11 @@ body{
 	font-family: Open Sans;
 	margin: 0;
 	padding: 0;
+
+}
+
+p{
+	font-size: 18px
 }
 
 
