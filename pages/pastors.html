@@ -4,3 +4,21 @@ permalink: /pastors/
 title: Pastors
 weight: 3
 ---
+
+<div class="pastor_table">
+	{% for p in site.data.pastors %}
+	<div class="eachpastor">
+
+		<div class="pastor">
+			<div class="pastorpic">
+				<img src="{{ p.Photo }}">
+			</div>
+			<div class="pastorname"><h3>{{ p.Pastors }}</h3></div>
+		</div>
+
+		<div class="pastorquote">
+			<p>{{ p.Quote }}</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>
